@@ -162,6 +162,10 @@ nav button {
     .first{
         flex-wrap: wrap;
     }
+    .hero {
+        padding-top: 100px; /* push content down */
+        height: auto; /* allow content to flow naturally */
+    }
 }
 .secImg img {
     width: 100%;
@@ -289,10 +293,5 @@ footer .questions{
 .faqbox.open {
     background-color: #444;
 }
-@media screen and (max-width: 600px) {
-    .hero {
-        padding-top: 120px;
-        height: auto;
-    }
-}
+
 

@@ -289,3 +289,10 @@ footer .questions{
 .faqbox.open {
     background-color: #444;
 }
+@media screen and (max-width: 600px) {
+    .hero {
+        padding-top: 120px;
+        height: auto;
+    }
+}
+
